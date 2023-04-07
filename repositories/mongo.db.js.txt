@@ -1,9 +1,0 @@
-async function connect() {
-  const uri =
-    'mongodb+srv://root:123@cluster0.po0vryq.mongodb.net/?retryWrites=true&w=majority'
-  mongoose.set('strictQuery', true)
-  return await mongoose.connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
-}
