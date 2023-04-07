@@ -1,0 +1,7 @@
+const sequelize = new Sequelize(
+  'postgres://lityvyha:I1GNbC7JHUu28JYQtGcyyKF26Q23G84t@drona.db.elephantsql.com/lityvyha',
+  {
+    dialect: 'postgres',
+    define: { timestamps: false }
+  }
+)
